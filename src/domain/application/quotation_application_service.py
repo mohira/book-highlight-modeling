@@ -27,6 +27,7 @@ class QuotationApplicationService:
                               quotation_section,
                               QuotationStatement(quotation_statement))
 
+        # TODO: このif文を書き忘れたら不正な引用区間の情報が保存されてしまうわけですな。これは何か改善のヒントなのでは？
         if quotation.is_out_of_range(book):
             print("正常に登録できませんでした。ページの範囲が不正です。")
         else:
@@ -48,6 +49,7 @@ class QuotationApplicationService:
                               quotation_section,
                               QuotationStatement(quotation_statement))
 
+        # TODO: このif文を書き忘れたら不正な引用区間の情報が保存されてしまうわけですな。これは何か改善のヒントなのでは？
         if quotation.is_out_of_range(book):
             print("正常に登録できませんでした。ページの範囲が不正です。")
         else:
