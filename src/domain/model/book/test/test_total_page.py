@@ -1,6 +1,6 @@
 import unittest
 
-from src.domain.total_page import TotalPage
+from src.domain.model.book.total_page import TotalPage
 
 
 class TestTotalPage(unittest.TestCase):

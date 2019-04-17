@@ -1,11 +1,11 @@
-from src.domain.book_id import BookId
-from src.domain.page_number import PageNumber
-from src.domain.quotation import Quotation
-from src.domain.quotation_id import QuotationId
-from src.domain.quotation_section import QuotationSection
-from src.domain.quotation_statement import QuotationStatement
-from src.infrastracture.book_repository_interface import BookRepositoryInterface
-from src.infrastracture.quotation_repository_interface import QuotationRepositoryInterface
+from src.domain.model.book.book_id import BookId
+from src.domain.model.book.book_repository_interface import BookRepositoryInterface
+from src.domain.model.book.page_number import PageNumber
+from src.domain.model.quotation.quotation import Quotation
+from src.domain.model.quotation.quotation_id import QuotationId
+from src.domain.model.quotation.quotation_repository_interface import QuotationRepositoryInterface
+from src.domain.model.quotation.quotation_section import QuotationSection
+from src.domain.model.quotation.quotation_statement import QuotationStatement
 
 
 class QuotationApplicationService:

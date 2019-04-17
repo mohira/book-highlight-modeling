@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 
-from src.domain.book import Book
-from src.domain.book_id import BookId
-from src.domain.quotation_id import QuotationId
-from src.domain.quotation_section import QuotationSection
-from src.domain.quotation_statement import QuotationStatement
+from src.domain.model.book.book import Book
+from src.domain.model.book.book_id import BookId
+from src.domain.model.quotation.quotation_id import QuotationId
+from src.domain.model.quotation.quotation_section import QuotationSection
+from src.domain.model.quotation.quotation_statement import QuotationStatement
 
 
 @dataclass(frozen=True)

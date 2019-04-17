@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
-from src.domain.quotation import Quotation
-from src.domain.quotation_id import QuotationId
+from src.domain.model.quotation.quotation import Quotation
+from src.domain.model.quotation.quotation_id import QuotationId
 
 
 class QuotationRepositoryInterface(metaclass=ABCMeta):

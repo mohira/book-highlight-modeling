@@ -1,6 +1,6 @@
 import unittest
 
-from src.domain.page_number import PageNumber
+from src.domain.model.book.page_number import PageNumber
 
 
 class TestPageNumber(unittest.TestCase):

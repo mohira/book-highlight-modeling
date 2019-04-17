@@ -1,6 +1,6 @@
 import unittest
 
-from src.domain.quotation_statement import QuotationStatement
+from src.domain.model.quotation.quotation_statement import QuotationStatement
 
 
 class TestQuotationStatement(unittest.TestCase):

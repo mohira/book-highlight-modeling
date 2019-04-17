@@ -1,7 +1,7 @@
 import unittest
 
-from src.domain.page_number import PageNumber
-from src.domain.quotation_section import QuotationSection
+from src.domain.model.book.page_number import PageNumber
+from src.domain.model.quotation.quotation_section import QuotationSection
 
 
 class TestQuotationSection(unittest.TestCase):

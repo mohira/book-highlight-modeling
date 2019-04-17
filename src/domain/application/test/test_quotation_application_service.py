@@ -1,8 +1,8 @@
 import unittest
 
-from src.application_service.quotation_application_service import QuotationApplicationService
-from src.infrastracture.in_memory_book_repository import InMemoryBookRepository
-from src.infrastracture.in_memory_quotation_repository import InMemoryQuotationRepository
+from src.domain.application.quotation_application_service import QuotationApplicationService
+from src.in_memory.in_memory_book_repository import InMemoryBookRepository
+from src.in_memory.in_memory_quotation_repository import InMemoryQuotationRepository
 
 
 class QuotationApplicationServiceTest(unittest.TestCase):

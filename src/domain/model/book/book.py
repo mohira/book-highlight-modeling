@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
-from src.domain.book_id import BookId
-from src.domain.total_page import TotalPage
+from src.domain.model.book.book_id import BookId
+from src.domain.model.book.total_page import TotalPage
 
 
 @dataclass(frozen=True)

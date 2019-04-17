@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
-from src.domain.book import Book
-from src.domain.book_id import BookId
+from src.domain.model.book.book import Book
+from src.domain.model.book.book_id import BookId
 
 
 class BookRepositoryInterface(metaclass=ABCMeta):
